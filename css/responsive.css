@@ -1,0 +1,657 @@
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .banner-left h1 {
+        font-size: 52px;
+    }
+
+    .banner-left h1::after {
+        top: -84px;
+        right: 0;
+    }
+
+    .owl-theme .owl-nav.disabled+.owl-dots {
+        margin-top: 20px;
+    }
+
+    .are-there-right {
+        margin-left: 0;
+        margin-top: 50px;
+    }
+
+    .are-there-right h2 {
+        font-size: 36px;
+    }
+
+
+    .are-there-right P {
+        font-size: 16px;
+    }
+
+    .are-there-right P br {
+        display: none;
+    }
+
+    .road-map-title h1 {
+        font-size: 36px;
+        margin-bottom: 0;
+    }
+
+    .road-map-title h1 span img {
+        width: 72px;
+    }
+    .previous img {
+        width: 50px;
+    }
+    .next img {
+        width: 50px;
+    }
+    .phase-one ul li br{
+        display: none;
+    }
+    .phase-one ul li {
+        margin-bottom: 45px;
+    }
+    .phase-two ul li {
+        margin-bottom: 22px;
+    }
+    .join-the-right {
+        padding-left: 0;
+    }
+
+   
+    .single-creators p {
+        font-size: 16px;
+    }
+    .creator-title h1 {
+        font-size: 32px;
+    }
+    .mutant-title h2 {
+        font-size: 35px;
+    }
+    .mutant-title h2 img {
+        width: 70px;
+        top: 0;
+    }
+    .faq-title h1 {
+        font-size: 35px;
+    }
+    .footer-area {
+        background-size: 100% 100%;
+        padding-bottom: 20px;
+    }
+    .main-bg::after {
+        height: 690px;
+    }
+    .creator-details {
+        padding: 0px 50px;
+    }
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .header-area-wrapper {
+        display: block;
+    }
+
+    .header-left-area {
+        display: block;
+    }
+
+    #sm-menu {
+        display: block;
+    }
+
+    .main-bg::after {
+        display: none;
+    }
+
+    .main-menu {
+        margin-left: 0;
+        margin-top: 20px;
+        display: none;
+    }
+
+    .main-menu ul li {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+
+    .header-right-area {
+        margin-top: 35px;
+        display: none;
+    }
+
+    .main-menu ul li a {
+        font-size: 16px;
+    }
+
+    .banner-left h1 {
+        font-size: 40px;
+    }
+
+    .banner-left h1::after {
+        top: -84px;
+        right: 0;
+    }
+
+    .owl-theme .owl-nav.disabled+.owl-dots {
+        margin-top: 20px;
+    }
+
+    .are-there-right {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .are-there-right h2 {
+        font-size: 36px;
+    }
+
+    .are-there-right h1 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .are-there-right h1 br {
+        display: none;
+    }
+
+    .are-there-right P {
+        font-size: 16px;
+    }
+
+    .are-there-right P br {
+        display: none;
+    }
+
+    .road-map-title h1 {
+        font-size: 36px;
+        margin-bottom: 0;
+    }
+
+    .road-map-title h1 span img {
+        width: 72px;
+    }
+    .previous img {
+        width: 50px;
+    }
+    .next img {
+        width: 50px;
+    }
+    .phase-one ul li br{
+        display: none;
+    }
+    .phase-one ul li {
+        margin-bottom: 45px;
+    }
+    .phase-two ul li {
+        margin-bottom: 29px;
+    }
+    .join-the-right {
+        padding-left: 0;
+    }
+    .join-the-right h1 {
+        font-size: 32px;
+    }
+
+    .creator-details {
+        padding: 0;
+    }
+    .single-creators img {
+        width: 80%;
+    }
+    .single-creators p {
+        font-size: 16px;
+    }
+    .creator-title h1 {
+        font-size: 32px;
+    }
+    .mutant-title h2 {
+        font-size: 35px;
+    }
+    .mutant-title h2 img {
+        width: 70px;
+        top: 0;
+    }
+    .faq-title h1 {
+        font-size: 35px;
+    }
+    .footer-area {
+        background-size: 100% 100%;
+        padding-bottom: 20px;
+    }
+}
+
+/*
+====================================
+Small Screen - Mobile
+====================================
+*/
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .header-area-wrapper {
+        display: block;
+    }
+
+    .header-left-area {
+        display: block;
+    }
+
+    #sm-menu {
+        display: block;
+    }
+
+    .main-bg::after {
+        display: none;
+    }
+
+    .main-menu {
+        margin-left: 0;
+        margin-top: 20px;
+        display: none;
+    }
+
+    .main-menu ul li {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+
+    .header-right-area {
+        margin-top: 35px;
+        display: none;
+    }
+
+    .main-menu ul li a {
+        font-size: 16px;
+    }
+
+
+    .banner-left {
+        text-align: center;
+    }
+
+    .banner-left h1 {
+        font-size: 35px;
+    }
+
+    .banner-left h1::after {
+        top: -90px;
+        right: 15px;
+    }
+
+
+    .owl-theme .owl-nav.disabled+.owl-dots {
+        margin-top: 20px;
+    }
+
+    .are-here-left {
+        padding-left: 0;
+    }
+
+    .are-here-area {
+        padding-top: 440px;
+    }
+
+    .are-there-right {
+        margin-top: 70px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .are-there-right h2 {
+        font-size: 32px;
+    }
+
+    .are-there-right h1 {
+        font-size: 26px;
+    }
+
+    .are-there-right h1 br {
+        display: none;
+    }
+
+    .are-there-right P {
+        font-size: 16px;
+    }
+
+    .are-there-right P br {
+        display: none;
+    }
+
+    .previous img {
+        width: 40px;
+    }
+
+    .next img {
+        width: 40px;
+    }
+
+    .road-map-title h1 {
+        font-size: 30px;
+    }
+
+    .road-map-title h1 span img {
+        width: 60px;
+    }
+
+    .join-the-right {
+        padding-left: 0;
+        text-align: center;
+        margin-top: 90px;
+    }
+
+    .join-the-right h1 {
+        font-size: 34px;
+    }
+
+    .join-the-right h1 br {
+        display: none;
+    }
+
+    .join-the-right h1::after {
+        top: -80px;
+    }
+
+    .creator-title h1 {
+        font-size: 35px;
+    }
+
+    .creator-details {
+        padding: 0;
+    }
+
+    .mutant-title h2 {
+        font-size: 30px;
+    }
+
+    .mutant-title h2 img {
+        width: 55px;
+        top: 0;
+    }
+
+    .mutant-area {
+        margin-top: 40px;
+    }
+
+    .faq-title h1 {
+        font-size: 32px;
+    }
+
+    .ziehharmonika h3 {
+        font-size: 20px;
+    }
+
+    .ziehharmonika>div {
+        padding: 0px 0px 15px 5px;
+        font-size: 16px;
+    }
+
+    .footer-content h3 {
+        font-size: 22px;
+        margin-bottom: 0;
+    }
+
+    .footer-logo a img {
+        width: 52px;
+    }
+
+    .social-icon ul li a img {
+        width: 35px;
+    }
+
+    .footer-logo {
+        padding-top: 0;
+    }
+
+    .footer-area {
+        background-size: 100% 100%;
+        padding-bottom: 20px;
+    }
+
+    .social-icon {
+        margin-top: 15px;
+    }
+
+    .single-creators img {
+        width: 85%;
+    }
+
+    .single-creators p {
+        font-size: 12px;
+    }
+
+    .banner-right {
+        width: 330px;
+        margin: 0 auto;
+    }
+
+
+}
+
+/*
+====================================
+Xtra Small Screen - Small Mobile
+====================================
+*/
+@media screen and (max-width: 576px) {
+
+
+    .header-area-wrapper {
+        display: block;
+    }
+
+    .header-left-area {
+        display: block;
+    }
+
+    #sm-menu {
+        display: block;
+    }
+
+    .main-bg::after {
+        display: none;
+    }
+
+    .main-menu {
+        margin-left: 0;
+        margin-top: 20px;
+        display: none;
+    }
+
+    .main-menu ul li {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+
+    .header-right-area {
+        margin-top: 35px;
+        display: none;
+    }
+
+    .main-menu ul li a {
+        font-size: 16px;
+    }
+
+
+    .banner-left {
+        text-align: center;
+    }
+
+    .banner-left h1 {
+        font-size: 35px;
+    }
+
+    .banner-left h1::after {
+        top: -90px;
+        right: 15px;
+    }
+
+
+    .owl-theme .owl-nav.disabled+.owl-dots {
+        margin-top: 20px;
+    }
+
+    .are-here-left {
+        padding-left: 0;
+    }
+
+    .are-here-area {
+        padding-top: 440px;
+    }
+
+    .are-there-right {
+        margin-top: 70px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .are-there-right h2 {
+        font-size: 32px;
+    }
+
+    .are-there-right h1 {
+        font-size: 26px;
+    }
+
+    .are-there-right h1 br {
+        display: none;
+    }
+
+    .are-there-right P {
+        font-size: 16px;
+    }
+
+    .are-there-right P br {
+        display: none;
+    }
+
+    .previous img {
+        width: 40px;
+    }
+
+    .next img {
+        width: 40px;
+    }
+
+    .road-map-title h1 {
+        font-size: 30px;
+    }
+
+    .road-map-title h1 span img {
+        width: 60px;
+    }
+
+    .join-the-right {
+        padding-left: 0;
+        text-align: center;
+        margin-top: 90px;
+    }
+
+    .join-the-right h1 {
+        font-size: 34px;
+    }
+
+    .join-the-right h1 br {
+        display: none;
+    }
+
+    .join-the-right h1::after {
+        top: -80px;
+    }
+
+    .creator-title h1 {
+        font-size: 35px;
+    }
+
+    .creator-details {
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .mutant-title h2 {
+        font-size: 30px;
+    }
+
+    .mutant-title h2 img {
+        width: 55px;
+        top: 0;
+    }
+
+    .mutant-area {
+        margin-top: 40px;
+    }
+
+    .faq-title h1 {
+        font-size: 32px;
+    }
+
+    .ziehharmonika h3 {
+        font-size: 16px;
+    }
+
+    .ziehharmonika>div {
+        padding: 0px 0px 15px 5px;
+        font-size: 14px;
+    }
+
+    .footer-content h3 {
+        font-size: 22px;
+        margin-bottom: 0;
+    }
+
+    .footer-logo a img {
+        width: 52px;
+    }
+
+    .social-icon ul li a img {
+        width: 35px;
+    }
+
+    .footer-logo {
+        padding-top: 0;
+    }
+
+    .footer-area {
+        background-size: 100% 100%;
+        padding-bottom: 20px;
+    }
+
+    .social-icon {
+        margin-top: 15px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

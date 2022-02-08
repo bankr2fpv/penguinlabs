@@ -1,0 +1,70 @@
+.ziehharmonika h3 {
+	color: #fff;
+	text-align: left;
+	padding: 25px 12px;
+	cursor: pointer;
+	margin-top: 0;
+	margin-bottom: 2px;
+	padding-right: 40px;
+	transition: 0.25s all;
+	position: relative;
+	font-family: 'Muli';
+	font-weight: 700;
+	font-size: 28px;
+	border-bottom: 1px solid #3F3F63;
+}
+.ziehharmonika h3.active {
+	margin-bottom: 0px;
+	border-bottom: none;
+}
+.ziehharmonika h3::before {
+	content: attr(data-prefix);
+	font-size: 18px;
+	margin-right: 45px;
+}
+.ziehharmonika h3.alignLeft {
+	padding-left: 35px;
+}
+.ziehharmonika > div {
+	display: none;
+	background: transparent;
+	border-radius: 0;
+	border-bottom: 1px solid #3F3F63;
+	text-align: left;
+	padding: 0px 0px 15px 55px;
+	margin-bottom: 9px;
+	font-size: 17px;
+}
+
+.ziehharmonika .active .arrowDown {
+	bottom: -13px;
+	border-color: #009641 transparent transparent transparent;
+	opacity: 1;
+}
+
+
+
+/*+ - area*/
+.ziehharmonika .collapseIcon {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	font-size: 25px;
+	font-weight: 700;
+	-ms-transform: translate(0, -50%);
+	    transform: translate(0, -50%);
+	    float: left;
+	border: 1px solid #F66FED;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	color: #F66FED;
+	line-height: 35px;
+}
+/*+ - area*/
+
+.ziehharmonika .collapseIcon.alignLeft {
+	right: initial;
+	left: 20px;
+}
